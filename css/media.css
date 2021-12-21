@@ -736,6 +736,24 @@ color: #2B3B47;
 .tabs-item__buttons .btn-main {
 	margin-right: 0;
 }
+.buttons-fixed {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	z-index: 700;
+	background-color: #fff;
+	display: flex;
+	box-shadow: 0px 5px 30px rgba(158, 158, 158, 0.15);
+}
+.btn-mobile {
+	height: 50px;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
 }
 
 
@@ -780,6 +798,7 @@ color: #2B3B47;
 	.row_articles > div:last-child {
 		max-width: 49%;
 	}
+	.buttons-fixed,
 	.link-page_sidebar,
 	.mobile-visible {
 		display: none !important;
