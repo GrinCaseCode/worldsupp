@@ -1262,7 +1262,7 @@ border-radius: 0px 0px 20px 20px;
 	z-index: 10;
 }
 .title-section_left {
-	text-align: left;
+	text-align: left !important;
 }
 }
 
