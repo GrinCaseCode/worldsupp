@@ -113,6 +113,18 @@ $(".link-page_sidebar").click(function(e) {
 		]
 	});
 
+	 $('.help-slider').slick({
+        arrows: false,
+        dots: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        touchThreshold: 1000,
+        prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+        nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+        infinite: true,
+
+    });
+
 
 	$(".calculator-range").ionRangeSlider({
 		min: 10000,
@@ -237,6 +249,42 @@ $(".link-page_sidebar").click(function(e) {
 
 });
 
+window.addEventListener('DOMContentLoaded', () => {
+  // get all progress bar
+  const elements = [].slice.call(document.querySelectorAll('.pie'));
+  // call to function
+  const circle = new CircularProgressBar('pie')
+
+  // https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
+  // if IntersectionObserver is supported by the browser
+  if ('IntersectionObserver' in window) {
+    const config = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.75,
+    };
+
+    const ovserver = new IntersectionObserver((entries, observer) => {
+      entries.map((entry) => {
+        if (entry.isIntersecting && entry.intersectionRatio > 0.75) {
+          circle.initial(entry.target);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, config);
+
+    elements.map((item) => {
+      ovserver.observe(item);
+    });
+  } else {
+    // if the browser does not support IntersectionObserver
+    // we run all progress bars at once
+    elements.map((element) => {
+      circle.initial(element);
+    });
+  }
+
+});
 
 /*polifyl*/
 /*! npm.im/object-fit-images 3.2.4 */
