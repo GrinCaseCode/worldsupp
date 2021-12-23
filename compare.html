@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html lang="ru" class="lt-ie9 lt-ie8 lt-ie7"><![endif]-->
+<!--[if IE 7]><html lang="ru" class="lt-ie9 lt-ie8"><![endif]-->
+<!--[if IE 8]><html lang="ru" class="lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="ru">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Заголовок</title>
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="libs/bootstrap/bootstrap-grid.css" />
+	<link rel="stylesheet" href="libs/fontawesome-free-5.12.0-web/css/all.min.css" />
+	<link rel="stylesheet" href="libs/fancybox/jquery.fancybox.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
+	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
+	<link rel="stylesheet" href="libs/ion.rangeSlider-master/css/ion.rangeSlider.min.css">
+	<link rel="stylesheet" href="css/fonts.css" />
+	<link rel="stylesheet" href="css/main.css?ver=1.4" />
+	<link rel="stylesheet" href="css/media.css?ver=1.4" />
+</head>
+<body>
+
+	<div class="wrapper circle_bg">
+
+		<div class="fix-block">
+			<div class="fix-block__img">
+				<img src="img/avatar-4.png" alt="alt"/>
+				<span class="fix-block__circle"></span>
+			</div>
+			<div class="fix-block__text">
+				<span>Напишите!</span>
+				<p>Расскажу вам как избавится от долгов</p>
+			</div>
+		</div>
+
+		<div class="buttons-fixed">
+			<a href="#" class="btn-mobile"><img src="img/i_globe.svg" alt="alt"></a>
+			<a href="#" class="btn-mobile"><img src="img/i_search.svg" alt="alt"></a>
+			<a href="#" class="btn-mobile"><img src="img/i_compare.svg" alt="alt"></a>
+			<a href="#" class="btn-mobile"><img src="img/i_pin.svg" alt="alt"></a>
+			<a href="#" class="btn-mobile"><img src="img/i_login.svg" alt="alt"></a>
+		</div>
+
+		<header class="header">
+			<div class="header-top">
+				<div class="container">
+					<div class="header-top__wrap">
+						<div class="header__left">
+							<span class="btn_nav">
+								<span class='sandwich'>
+									<span class='sw-topper'></span>
+									<span class='sw-bottom'></span>
+									<span class='sw-footer'></span>
+								</span>
+							</span>
+							<a href="#" class="logo">
+								<img src="img/logo.svg" alt="alt">
+								<span>World Supplier</span>
+							</a>
+						</div>
+						<div class="form-search">
+							<form>
+								<input type="text" required="required">
+								<button class="btn-search"><img src="img/search.svg" alt="alt"></button>
+							</form>
+						</div>
+						<div class="item-dropdown">
+							<div class="item-dropdown__value"><img src="img/map_pin.svg" alt="alt">Moscow <div class="item-dropdown__arrow"></div></div>
+							<div class="item-dropdown__content">
+								<ul>
+									<li><a href="#">Moscow</a></li>
+									<li><a href="#">Moscow</a></li>
+									<li><a href="#">Moscow</a></li>
+									<li><a href="#">Moscow</a></li>
+								</ul>
+							</div>
+						</div>
+						<a href="#" class="btn-icon">
+							<img src="img/compare.svg" alt="alt">
+						</a>
+						<div class="item-dropdown">
+							<div class="item-dropdown__value"><img src="img/globe.svg" alt="alt">Rus <div class="item-dropdown__arrow"></div></div>
+							<div class="item-dropdown__content">
+								<ul>
+									<li><a href="#">Rus</a></li>
+									<li><a href="#">End</a></li>
+								</ul>
+							</div>
+						</div>
+						<a href="#" class="btn-page"><img src="img/login.svg" alt="alt">Login / Registration</a>
+					</div>
+				</div>
+			</div>
+			<div class="header-bottom">
+				<div class="container">
+					<ul class="menu menu_new">
+						<li class="menu_haschild">
+							<a href="#">Учеба и работа </a>
+							<ul>
+								<li><a href="#">Personal loans</a></li>
+								<li><a href="#">Car loans</a></li>
+							</ul>
+						</li>
+						<li class="menu_haschild">
+							<a href="#">Помощь для бизнеса</a>
+							<ul>
+								<li><a href="#">Personal loans</a></li>
+								<li><a href="#">Car loans</a></li>
+							</ul>
+						</li>
+						<li class="menu_haschild">
+							<a href="#">Помощь в трудных ситуациях</a>
+							<ul>
+								<li><a href="#">Personal loans</a></li>
+								<li><a href="#">Car loans</a></li>
+							</ul>
+						</li>
+						<li class="menu_haschild">
+							<a href="#">Проблемы с долгами</a>
+							<ul>
+								<li><a href="#">Personal loans</a></li>
+								<li><a href="#">Car loans</a></li>
+							</ul>
+						</li>
+						<li><a href="#">Сбор средств</a></li>
+						<li><a href="#" class="create-user"><span><img src="img/create.svg" alt="alt"></span>Добавить свое</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+		<div class="container">
+			<ul class="breadcumbs">
+				<li><a href="#">Главная</a></li>
+				<li>Страница объявлений</li>
+			</ul>
+		</div>
+
+		<div class="compare">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="credit7__img">
+							<img src="img/compare1.png" alt="alt"/>
+						</div>
+					</div>
+					<div class="col-lg-8 compare__right">
+						<div class="suptitle-section">Сравнение кредитов </div>
+						<div class="title-section">Альфабанка и Сбербанка</div>
+						<div class="loans-item">
+							<div class="loans-item__img">
+								<img src="img/online-avater.png" alt="alt" />
+							</div>
+							<div class="loans-item__descr">
+								<div class="loans-item__name">Светлана Никитина</div>
+								<div class="loans-item__date">обновлено 21.07.21</div>
+							</div>
+							<div class="loans-item__like">
+								<img src="img/like.svg" alt="alt"/>
+								<span>125</span>
+							</div>
+						</div>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra orci sagittis eu volutpat odio facilisis .</p>
+					</div>
+				</div>
+				<div class="compare-microloans">
+					<div class="compare-microloans__top">
+						<div class="compare-microloans__title">Сравнение микрозаймов </div>
+						<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+					</div>
+					<div class="table-wrap">
+						<table class="popular-loans__table">
+							<tbody>
+								<tr>
+									<th>Банк</th>
+									<th>Вид продукта</th>
+									<th>Ставка в день</th>
+									<th>Плюсы</th>
+									<th>Минусы</th>
+									<th>Заявка</th>
+								</tr>
+								<tr>
+									<td>
+										<div class="popular-loans__img">
+											<img src="img/compare-1.png" alt="alt">
+										</div>
+									</td>
+									<td>
+										<span>Сумма до 30 000 Р</span>
+										<p>Микрозайм онлайн</p>
+									</td>
+									<td>
+										<span>от 0,1 % до1%</span>
+										<p class="text_green">Первый займ 0%</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-green.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-red.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="right-text">Лиц. № 005894</div>
+										<a href="#" class="btn-main">Подать заявку</a>
+										<div class="right-bottom__text">19 658 заявок</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="popular-loans__img">
+											<img src="img/compare-2.png" alt="alt">
+										</div>
+									</td>
+									<td>
+										<span>Сумма до 30 000 Р</span>
+										<p>Микрозайм онлайн</p>
+									</td>
+									<td>
+										<span>от 0,1 % до1%</span>
+										<p class="text_green">Первый займ 0%</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-green.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-red.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="right-text">Лиц. № 005894</div>
+										<a href="#" class="btn-main">Подать заявку</a>
+										<div class="right-bottom__text">19 658 заявок</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="compare-microloans">
+					<div class="compare-microloans__top">
+						<div class="compare-microloans__title">Сравнение ипотеки</div>
+						<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+					</div>
+					<div class="table-wrap">
+						<table class="popular-loans__table">
+							<tbody>
+								<tr>
+									<th>Банк</th>
+									<th>Вид продукта</th>
+									<th>Ставка в день</th>
+									<th>Плюсы</th>
+									<th>Минусы</th>
+									<th>Заявка</th>
+								</tr>
+								<tr>
+									<td>
+										<div class="popular-loans__img">
+											<img src="img/compare-1.png" alt="alt">
+										</div>
+									</td>
+									<td>
+										<span>Сумма до 30 000 Р</span>
+										<p>Микрозайм онлайн</p>
+									</td>
+									<td>
+										<span>от 0,1 % до1%</span>
+										<p class="text_green">Первый займ 0%</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-green.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-red.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="right-text">Лиц. № 005894</div>
+										<a href="#" class="btn-main">Подать заявку</a>
+										<div class="right-bottom__text">19 658 заявок</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="popular-loans__img">
+											<img src="img/compare-2.png" alt="alt">
+										</div>
+									</td>
+									<td>
+										<span>Сумма до 30 000 Р</span>
+										<p>Микрозайм онлайн</p>
+									</td>
+									<td>
+										<span>от 0,1 % до1%</span>
+										<p class="text_green">Первый займ 0%</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-green.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-red.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="right-text">Лиц. № 005894</div>
+										<a href="#" class="btn-main">Подать заявку</a>
+										<div class="right-bottom__text">19 658 заявок</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="compare-microloans">
+					<div class="compare-microloans__top">
+						<div class="compare-microloans__title">Сравнение автокредитов</div>
+						<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+					</div>
+					<div class="table-wrap">
+						<table class="popular-loans__table">
+							<tbody>
+								<tr>
+									<th>Банк</th>
+									<th>Вид продукта</th>
+									<th>Ставка в день</th>
+									<th>Плюсы</th>
+									<th>Минусы</th>
+									<th>Заявка</th>
+								</tr>
+								<tr>
+									<td>
+										<div class="popular-loans__img">
+											<img src="img/compare-1.png" alt="alt">
+										</div>
+									</td>
+									<td>
+										<span>Сумма до 30 000 Р</span>
+										<p>Микрозайм онлайн</p>
+									</td>
+									<td>
+										<span>от 0,1 % до1%</span>
+										<p class="text_green">Первый займ 0%</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-green.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-red.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="right-text">Лиц. № 005894</div>
+										<a href="#" class="btn-main">Подать заявку</a>
+										<div class="right-bottom__text">19 658 заявок</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<div class="popular-loans__img">
+											<img src="img/compare-2.png" alt="alt">
+										</div>
+									</td>
+									<td>
+										<span>Сумма до 30 000 Р</span>
+										<p>Микрозайм онлайн</p>
+									</td>
+									<td>
+										<span>от 0,1 % до1%</span>
+										<p class="text_green">Первый займ 0%</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-green.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="compare-table__img">
+											<img src="img/like-red.svg" alt="alt">
+										</div>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit</p>
+									</td>
+									<td>
+										<div class="right-text">Лиц. № 005894</div>
+										<a href="#" class="btn-main">Подать заявку</a>
+										<div class="right-bottom__text">19 658 заявок</div>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="reviews-bank">
+					<div class="title-section">Отзывы о банках </div>
+					<div class="reviews-bank__block">
+						<div class="reviews-slider">
+							<div class="reviews-slider__item">
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-1.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-2.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-slider__item">
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-1.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-2.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-slider__item">
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-1.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-2.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="reviews-slider__item">
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-1.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+								<div class="credit7-reviews__block">
+									<div class="credit7-reviews__top">
+										<div class="credit7-reviews__img">
+											<img src="img/compare-2.png" alt="alt">
+										</div>
+										<div class="credit7-reviews__item">
+											<div class="rating-wrap">
+												<div class="rating rating_5">
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+													<div class="rating__item"><i class="fas fa-star"></i></div>
+												</div>
+												<span>5 из 5</span>
+											</div>
+											<div class="popular-revies__date"><img src="img/calendar.svg" alt="alt">23.07.2021</div>
+										</div>
+									</div>
+									<div class="popular-reviews__rating">
+									</div>
+									<div class="popular-reviews__subtitle">Хорошие условия, быстрое оформление, положительный результат</div>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+									<a href="#" class="reviews-link">Читать еще<span><img src="img/arrow-block.svg" alt="alt" /></span></a>
+									<div class="popular-reviews__bottom">
+										<div class="popular-reviews__left"><img src="img/popular-reviews.png" alt="alt">Wade Warren</div>
+										<div class="popular-reviews__right">
+											<span><img src="img/popular-location.svg" alt="alt">Краснодар</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="compare-rating">
+					<div class="head-page">
+						<div class="title-middle">Рейтинг банков</div>
+						<a href="#" class="btn-main">Проголосовать</a>
+					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="compare-rating__item">
+								<div class="compare-rating__top">
+									<div class="compare-rating__img">
+										<img src="img/compare-1.png" alt="alt">
+									</div>
+									<div class="compare-rating__items">
+										<p>Народный рейтинг: 450 баллов</p>
+										<div class="compare-rating__winner">
+											<img src="img/winner.svg" alt="alt">
+											<span>Победитель рейтинга</span>
+										</div>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Надежность</div>
+									<div class="compare-progress">
+										<span style="width: 90%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Сервис обслуживания</div>
+									<div class="compare-progress">
+										<span style="width: 70%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Скорость работы</div>
+									<div class="compare-progress">
+										<span style="width: 60%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Условия</div>
+									<div class="compare-progress">
+										<span style="width: 80%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__bottom">
+									<span>Плохо</span>
+									<span>Отлично</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="compare-rating__item compare-item_gray">
+								<div class="compare-rating__top">
+									<div class="compare-rating__img">
+										<img src="img/compare-2.png" alt="alt">
+									</div>
+									<div class="compare-rating__items">
+										<p>Народный рейтинг: 450 баллов</p>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Надежность</div>
+									<div class="compare-progress">
+										<span style="width: 90%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Сервис обслуживания</div>
+									<div class="compare-progress">
+										<span style="width: 70%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Скорость работы</div>
+									<div class="compare-progress">
+										<span style="width: 60%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__block">
+									<div class="compare-progress__title">Условия</div>
+									<div class="compare-progress">
+										<span style="width: 80%"></span>
+									</div>
+								</div>
+								<div class="compare-progress__bottom">
+									<span>Плохо</span>
+									<span>Отлично</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<form  class="main-form">
+					<div class="form-block">
+						<div class="form-block__title">Оставить отзыв</div>
+						<div class="item-form__user">
+							Вы вошли как Анна. <a href="#">Выйти</a>
+						</div>
+						<div class="row align-items-center" >
+							<div class="col-lg-2">
+								<div class="compare-range__title">Надежность</div>
+							</div>
+							<div class="col-lg-10">
+								<div class="compare-range__slider ">
+									<input type="text" class="compare-range" name="my_range" value=""/>
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center" >
+							<div class="col-lg-2">
+								<div class="compare-range__title">Сервис обслуживания</div>
+							</div>
+							<div class="col-lg-10">
+								<div class="compare-range__slider ">
+									<input type="text" class="compare-range" name="my_range" value=""/>
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center" >
+							<div class="col-lg-2">
+								<div class="compare-range__title">Скорость работы</div>
+							</div>
+							<div class="col-lg-10">
+								<div class="compare-range__slider ">
+									<input type="text" class="compare-range" name="my_range" value=""/>
+								</div>
+							</div>
+						</div>
+						<div class="row align-items-center" >
+							<div class="col-lg-2">
+								<div class="compare-range__title">Условия</div>
+							</div>
+							<div class="col-lg-10">
+								<div class="compare-range__slider ">
+									<input type="text" class="compare-range" name="my_range" value=""/>
+								</div>
+							</div>
+						</div>
+						<div class="compare-range__item">
+							<textarea placeholder="Ваш отзыв"></textarea>
+						</div>
+						<div class="checkbox-wrap">
+							<div class="checkbox">
+								<label for="checkbox-form">
+									<input type="checkbox" checked id="checkbox-form">
+									<span>Согласен на обработку персональных данных</span>
+								</label>
+							</div>
+							<button  class="btn-main btn_color"><span><img src="img/Chat.svg" alt="alt" /></span>
+								Проголосовать
+							</button>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<ul class="footer-menu">
+					<li><a href="#">About project</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Terms of use</a></li>
+					<li><a href="#">Site`s map</a></li>
+					<li><a href="#">Vacancies</a></li>
+					<li><a href="#">Advertising</a></li>
+					<li><a href="#">Support</a></li>
+				</ul>
+				<div class="row row_footer">
+					<div class="col-lg-6">
+						<div class="qr-code">
+							<img src="img/qr.png" alt="alt">
+							<div class="qr-code__content">
+								<div class="title-min">Installing the mobile app</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum </p>
+							</div>
+						</div> 
+					</div>
+					<div class="col-lg-3">
+						<div class="title-min">We are in social networks</div>
+						<ul class="list-icons">
+							<li><a href="#"><img src="img/ic_vk.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_fb.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_yt.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_tg.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_pt.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_it.svg" alt="alt"></a></li>
+						</ul>
+						<div class="title-min">Browser extensions:</div>
+						<ul class="list-icons">
+							<li><a href="#"><img src="img/ic_chrome.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_firefox.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_opera.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_yandex.svg" alt="alt"></a></li>
+						</ul>
+						<div class="title-min">Telegram bot: <a href="#">@worldsupp</a></div>
+					</div>
+					<div class="col-lg-3">
+						<div class="title-min">Customer care:</div>
+						<a href="tel:+78003025650" class="title-min">+7 (800) 302 56 50</a>
+						<ul class="list-icons">
+							<li><a href="#"><img src="img/ic_message.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_send.svg" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_call.svg" alt="alt"></a></li>
+						</ul>
+						<p>Daily from 8.00 to 20.00</p>
+						<ul class="list-icons">
+							<li><a href="#"><img src="img/ic_logo1.png" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_logo2.png" alt="alt"></a></li>
+							<li><a href="#"><img src="img/ic_logo3.png" alt="alt"></a></li>
+						</ul>
+					</div>
+				</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis leo, vel fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque fermentum dui faucibus in ornare quam viverra</p>
+				<div class="bottom-footer">
+					<p>© All Rights Reserved Worldsupp.2014-2021</p>
+					<a href="#">Denial of responsibility</a>
+					<a href="#">Personal data processing</a>
+					<a href="#">Terms of use</a>
+				</div>
+			</div>
+		</footer>
+		
+	</div>
+
+	<!--[if lt IE 9]>
+	<script src="libs/html5shiv/es5-shim.min.js"></script>
+	<script src="libs/html5shiv/html5shiv.min.js"></script>
+	<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+	<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+<script src="libs/jquery/jquery-1.11.1.min.js"></script>
+<script src="libs/jquery-mousewheel/jquery.mousewheel.min.js"></script>
+<script src="libs/fancybox/jquery.fancybox.pack.js"></script>
+<script src="libs/slick-1.5.9/slick/slick.min.js"></script>
+<script src="libs/scroll2id/PageScroll2id.min.js"></script>
+<script src="libs/mask/jquery.maskedinput.js"></script>
+<script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
+<script src="libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+<script src="libs/circular-progress-bar-master/CircularProgressBar.min.js"></script>
+<script src="js/common.js?ver=1.4"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
