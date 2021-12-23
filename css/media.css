@@ -1732,10 +1732,13 @@ border-radius: 20px;
 }
 .compare {
 	position: relative;
-	z-index: 10;
+	z-index: 10; 
 }
 .compare .loans-item {
 	margin-top: 20px;
+}
+.reviews-slider .slick-dots {
+	justify-content: center;
 }
 }
 
