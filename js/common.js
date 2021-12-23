@@ -113,6 +113,69 @@ $(".link-page_sidebar").click(function(e) {
 		]
 	});
 
+	$('.slider-advice').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
+	});
+
+	$('.slider-four').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		slidesToShow: 4,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
+	});
+
+	$('.slider-cards').slick({
+		arrows: false,
+		dots: true,
+		infinite: true,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 992,
+			settings: {
+				slidesToShow: 1,
+			}
+		}
+		]
+	});
+
+	$('.consumers-slider').slick({
+		arrows: false,
+		dots: true,
+		infinite: false,
+		   mobileFirst: true,
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		responsive: [
+		{
+			breakpoint: 992,
+			 settings: 'unslick'
+		}
+		]
+	});
+
 	 $('.help-slider').slick({
         arrows: false,
         dots: true,
@@ -124,6 +187,18 @@ $(".link-page_sidebar").click(function(e) {
         infinite: true,
 
     });
+
+	  $('.reviews-slider').slick({
+      arrows: false,
+      dots: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      touchThreshold: 1000,
+      prevArrow: '<div class="slick-prev slick-arrow"><i class="far fa-chevron-left"></i><div/>',
+      nextArrow: '<div class="slick-next slick-arrow"><i class="far fa-chevron-right"></i><div/>',
+      infinite: true,
+
+  });
 
 
 	$(".calculator-range").ionRangeSlider({
