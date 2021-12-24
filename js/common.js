@@ -295,6 +295,29 @@ $(".link-page_sidebar").click(function(e) {
 	});
 
 
+var c_tabs = $(".tab-quiz-credit").length;
+ $('.value-quiz span').append(c_tabs);
+
+	$('.tab-quiz-credit').each(function(index, element){
+  $(this).attr('data-block', index);  
+   index += 1;
+  
+  $('.progressbar-numbers').append('<div class="progressbar-numbers__item" ></div>');
+  $(".progressbar-numbers__item:first-child").addClass("active");
+});
+
+
+	$(".btn-block_next").click(function(e) {
+		e.preventDefault();
+		var n= $( this ).parent().parent().parent().index()+2;
+	 $('.value-quiz b').html(n);
+
+		$(".progressbar-numbers__item.active").next().addClass("active");
+		$(this).parent().parent().parent().fadeOut(0);
+		$(this).parent().parent().parent().next(".tab-quiz-credit").fadeIn(200);
+	});
+
+
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
 
