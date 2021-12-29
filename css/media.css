@@ -571,18 +571,6 @@
 	.question__name {
 		padding-right: 20px;
 	}
-	.question.active .question__name .question__btn:before {
-		width: 9px;
-		height: 2px;
-	}
-	.question__btn:before {
-		width: 9px;
-		height: 2px;
-	}
-	.question__btn:after {
-		height: 8px;
-		width: 2px;
-	}
 	.rating .title-section {
 		padding-bottom: 30px;
 	}
